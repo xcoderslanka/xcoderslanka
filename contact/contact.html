@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - X Coders</title>
+  <link rel="icon" href="../images/logo.png" type="image/png">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="../images/x_logo2.png" alt="X CODERS Logo" class="logo" width="60px" height="30"> 
+        <span class="logo-text" ><a href="#">X CODERS</a></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../About/about.html">About Us</a></li>
+        <li><a href="../index.html#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="../Blog/blog.html">Blog</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    </header>
+
+<!-- contact form -->
+
+<!-- contact form -->
+<section id="contact" class="contact-section">
+  <div class="contact-overlay">
+    <h2>Contact Us</h2>
+
+    <!-- Intro Paragraph -->
+    <div class="contact-intro">
+      <p>
+        We’d love to hear from you! Whether you have a question about our services, need support, 
+        or just want to say hello, feel free to reach out. Our team is here to assist you.
+      </p>
+    </div>
+
+    <!-- Contact Form -->
+    <form class="contact-form" action="submit_form.php" method="post">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+  </div>
+
+  
+
+  <!-- Responsive Map -->
+  <div class="map-container">
+    <h3>Our Location</h3>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508616!2d144.95373531531655!3d-37.81627997975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577fbee7cd6a0a1!2sMelbourne%20CBD%2C%20Victoria%2C%20Australia!5e0!3m2!1sen!2sus!4v1600804748700!5m2!1sen!2sus" 
+      width="100%" 
+      height="350" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+
+ <!-- footer area -->
+    <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo and Tagline -->
+          <div class="footer-logo">
+            <img src="../images/x_logo.png" alt="X Coders Logo">
+            <p>Innovating the future, one line of code at a time.</p>
+          </div>
+      
+          <!-- Quick Links -->
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../About/about.html">About Us</a></li>
+              <li><a href="../index.html#services">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="../Blog/blog.html">Blog</a></li>
+          </div>
+      
+          <!-- Contact Info -->
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:info@xcoders.com">xcoderslanka@gmail.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+94 78 547 4511</a></p>
+            <p>Follow Us:</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61553993526727"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook"></a>
+              <a href="#"><img src="https://freepnglogo.com/images/all_img/1691832708new-twitter-x-logo-white.png" alt="Twitter"></a>
+              <a href="#"><img src="https://openvisualfx.com/wp-content/uploads/2019/10/linkedin-icon-logo-png-transparent.png" alt="LinkedIn"></a>
+              <a href="#"><img src="../images/yt.png" alt="YouTube"></a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="footer-bottom">
+          <p>&copy; 2025 X Coders. All rights reserved.</p>
+        </div>
+      </footer>
+</body>
+<script src="contact.js"></script>
+</html>    
+
+
