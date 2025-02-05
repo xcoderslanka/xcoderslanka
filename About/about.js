@@ -30,4 +30,11 @@ document.addEventListener('mousemove', (e) => {
     follower.style.top = `${y}px`;
   }, 50);
 });
+//img drag
+document.addEventListener('contextmenu', function(e) {
+  if (e.target.tagName === 'IMG') {
+    e.preventDefault();
+  }
+});
+
 
