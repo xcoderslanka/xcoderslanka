@@ -15,6 +15,14 @@ body {
   min-height: 100vh;
 }
 
+/*image drag*/
+img {
+  pointer-events: none;
+  user-drag: none;
+  -webkit-user-drag: none;
+}
+
+
 /* Custom Cursor */
 .cursor, .follower {
   position: fixed;
