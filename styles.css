@@ -830,4 +830,35 @@ img {
   user-drag: none;
   -webkit-user-drag: none;
 }
+/*social button */
+.social-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-btn img {
+  width: 45px;
+  height: 45px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.social-btn img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+}
+
+.facebook-btn img {
+  background-color: #1877f2;
+  padding: 8px;
+}
+
+.youtube-btn img {
+  background-color: #ff0000;
+  padding: 8px;
+}
+
 
