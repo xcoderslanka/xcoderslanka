@@ -400,3 +400,36 @@ button:hover ~ .cursor,
   font-size: 0.8rem;
   color: #ccc;
 }
+
+.lms-section {
+  text-align: center;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 50px 20px;
+  margin: 40px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lms-card {
+  display: inline-block;
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.lms-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #ff9800;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.lms-button:hover {
+  background: #e68900;
+}
